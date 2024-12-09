@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Pacifico&display=swap');
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #0f0, 0 0 30px #00f, 0 0 40px #f0f;
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
+}
+
+h1 {
+    color: #0f0;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+}
+
+input, select {
+    background: #222;
+    color: #0f0;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+button {
+    background: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+}
+
+button:active {
+    padding: 15px;
+}
+
+h2 {
+    color: #ff0;
+    margin-top: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.logo {
+    width: 150px; /* Adjust size as needed */
+    margin-bottom: 10px;
+    border-radius: 50%;
+}

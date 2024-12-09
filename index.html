@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="IMAGES/codefusion_solution_logo.jpeg" type="image/icon type">
+    <title>Mean, Median, Mode Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mean, Median & Mode Calculator</h1>
+        <div class="calculator">
+            <label for="operation">Choose an operation:</label>
+            <select id="operation">
+                <option value="Select the operation:-">Select the operation:-</option>
+                <option value="mean">Mean</option>
+                <option value="median">Median</option>
+                <option value="mode">Mode</option>
+            </select>
+            <br><br>
+            <input type="text" id="numbers" placeholder="Enter numbers separated by commas">
+            <br><br>
+            <button onclick="calculate()">Calculate</button>
+            <h2 id="result"></h2>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Made by: CodeFusion_Solutions</p>
+        <img src="IMAGES/codefusion_solution_logo.jpeg" alt="AA Brothers Logo" class="logo">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
